@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <style>
+    .font_1 {
+        background-color: darkgoldenrod;
+        color:firebrick;
+        font-size: medium;
+    }
+    .font_2{
+        background-color: hotpink;
+        color:black;
+        font-size: large;
+    }
+    </style>
+    <h2 class="font_1"> this h2 element is styles per class attribute font_1</h2>
+    <h3 class="font_2"> this h3 element is styles per class attribute font_2</h3>
+    <h4 class="font_1"> even though this is an h4 element, it is stylesd the same as h2 elemet becasue we pointed to the same class attribute font_1</h4>
+</body>
+</html>
