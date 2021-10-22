@@ -24,7 +24,7 @@ menu section animation
     border-radius: 6px;
     /*background-color: #052136;*/
     cursor: pointer;
-    transition-property: background;
+    transition-property:background;
     transition-duration: .4s;
     transition-delay: 0s;
     transition-timing-function: easy-in-out;
@@ -75,7 +75,7 @@ gallery section animation
     padding-right: 20px;
     juatify-content: center; /* For centering text inside .photo-overlay*/
     align-items: center;
-    background: rgba(0,0,0,0.5));
+    background: rgba(0,0,0,0.5);
 }
 
 .white-head {
