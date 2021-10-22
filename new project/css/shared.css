@@ -47,7 +47,7 @@ h1::after { /* this is the underline */
     width: 150px;
     background: #E91C1C;
     margin: 5px auto 40px;
-    box-shadow: 5px 2px 3px rgba(0,0,0,0.5));
+    box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
 h2 {
@@ -117,7 +117,7 @@ section {
 .navbar:after {
     clear: both;
     display: table;
-    content: "";
+    content: " ";
 }
 
 .wrap {
@@ -136,10 +136,10 @@ section {
 .menu-container {
     max-height: 340px;
     margin: 0% auto;
-    content: "" ;
+    content: " " ;
     /* top: 0;
     left: 0; */ 
-    /* position: absolute; */ /* to the top edge of the sceen*/
+    /* position: absolute; */ /* to the top edge of the sceen */
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -148,7 +148,7 @@ section {
 
 /* ===========================
 HOME SECTION STYLE 
--------------------------*/
+==============================*/
 #home {
     background: url( ../images/backgroung_pic.png.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
@@ -165,7 +165,7 @@ HOME SECTION STYLE
 }
 
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.5);
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
@@ -190,7 +190,7 @@ HOME SECTION STYLE
     font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
-     border: 1px dotted #fff;
+    border: 1px dotted #fff;
      padding: 5px;
 }
 
@@ -205,7 +205,7 @@ Contact Style
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba (100, 65,0, .3);
+    background-color: rgba (100,65,0,.3);
     box-shadow: 2px 2px 10px 0 rgba (0,0,0,0.5);
 }
 
@@ -244,7 +244,7 @@ Contact Style
     word-spacing: .3pt;
 }
 
-.reservation p{
+.reservation p {
     color: #13161b;
     width: 50%;
     margin: 0 auto;
@@ -260,9 +260,9 @@ Contact Style
     border: 1px solid #808080;
     margin: 2% auto;
     border-radius: 7px;
-    background: rgb (277,222,222);
-    box-shadow: 2px 3px 3px 0px rgba (0, 0,0, 0.3);
-    font-family: 'raleway', sans-serif;
+    background: rgb (227,222,222);
+    box-shadow: 2px 3px 3px 0px rgba (0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
 }
 
 .reservation input[type="text"] {
@@ -275,16 +275,16 @@ Contact Style
     border-top: 1px solid #090b0D;
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
-    border-left: 1px solis #090b0D;
+    border-left: 1px solid #090b0D;
     margin: 10px 1em;
     border-radius: 7px;
     background: #13161b;
     box-shadow: inset 0px 3px 0px 0px rgba (5,5,5,0.15);
-    font-family: 'raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .reservation input [type="text"]:hover {
-    box-shadow: 0 0 18px rgba (100, 65,0, ,8);
+    box-shadow: 0 0 18px rgba (100, 65, 0, .8);
 }
 
 .form-spacer {
@@ -298,7 +298,7 @@ Contact Style
     line-height: 5px;
     color: #000;
     cursor: pointer;
-    font-family: 'raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     position: relative;
     display: inline;
@@ -310,7 +310,7 @@ Contact Style
     text-decoration: underline;
 }
 
-.submit input [type="submit"] {
+.submit input[type="submit"] {
     color: rgb(225,225,225);
     cursor: pointer;
     border: none ;
@@ -348,28 +348,28 @@ FOOTER STYLE
 /*=========================
 @media queries
 ========================= */
-@media all and (max-width:640px) and (nin-width:381px) {
+@media all and (max-width:640px) and (min-width:381px) {
     .head-main {
-        font-size: 20px;
+        font-size: 28px;
     }
 }
-@media all and (max-width:381px) and (nin-width:200px) {
+@media all and (max-width:381px) and (min-width:200px) {
     .head-main { 
         font-size: 24px;
     }
 }
 
-@media (nin-width: 768px) {
+@media (min-width: 768px) {
     .container {
         width: 750px;
     }
 }
-@media (nin-width: 992px) {
+@media (min-width: 992px) {
     .container {
         width: 970px;
     }
 }
-@media (nin-width: 1200px) {
+@media (min-width: 1200px) {
     .container{
         width: 1170px;
     }
