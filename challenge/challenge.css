@@ -1,0 +1,138 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    border: 2px solid black;
+    border-radius: 25px;
+}
+img {
+    filter: contrast(100%);
+    height: 350px;
+    width: 450px;
+  }
+ 
+  body {
+      text-align: center;
+  }
+     
+  h1 {
+      color: black;
+  }
+
+
+
+
+/*==================================
+Table
+=================================*/
+  div.a {
+    text-align: center;
+    }
+  
+div.b {
+    text-align: left;
+  }
+  
+div.c {
+    text-align: right;
+  }
+  
+div.c {
+    text-align: justify;
+  }
+p.normal {
+    font-weight: normal;
+  }
+  
+p.thick {
+    font-weight: bold;
+  }
+  
+p.thicker {
+    font-weight: 900;
+  }
+table, th, td {
+    border: 2px solid black;
+  }
+  
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+  
+tr:nth-child(odd) {
+    background-color: lightpink;
+}
+
+/*=======================================
+End of table 
+=======================================*/
+
+
+/*======================================
+Nav Bar 
+=====================================*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+.navbar a:hover {
+    background: palevioletred;
+    color: black;
+  }
+  
+  
+.main {
+    margin-top: 30px; 
+  }
+  /* =========================
+  two colums
+  ===========================*/ 
+.column {
+    float: left;
+    width: 50%;
+    color:purple;
+    font-size: 15pt;
+    font-family: "Cambria" Cochin, Georgia, Times, Times New Roman, serif;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.left {
+    width: 33%;
+    height: 200px;
+  }
+  
+.right {
+    width: 33%;
+    height: 200px;
+  }
+
+  /* =========================
+  end two colums
+  ===========================*/ 
+p:hover {
+    background-color: rgb(236, 195, 202);
+}
+
+
+
+
+
